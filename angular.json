@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "my-app2": {
+    "angular-audio-player-pavel-f": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/my-app2",
+            "outputPath": "dist/angular-audio-player-pavel-f",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,18 +68,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "my-app2:build"
+            "browserTarget": "angular-audio-player-pavel-f:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "my-app2:build:production"
+              "browserTarget": "angular-audio-player-pavel-f:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "my-app2:build"
+            "browserTarget": "angular-audio-player-pavel-f:build"
           }
         },
         "test": {
@@ -117,16 +117,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "my-app2:serve"
+            "devServerTarget": "angular-audio-player-pavel-f:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "my-app2:serve:production"
+              "devServerTarget": "angular-audio-player-pavel-f:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "my-app2"
+  "defaultProject": "angular-audio-player-pavel-f"
 }

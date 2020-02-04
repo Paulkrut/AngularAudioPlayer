@@ -10,7 +10,7 @@ import { User } from './_models';
 })
 export class AppComponent {
   currentUser: User;
-  title = 'my-app2';
+  title = 'angular-audio-player-pavel-f';
 
   constructor(
       private router: Router,

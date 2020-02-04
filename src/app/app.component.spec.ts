@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'my-app2'`, () => {
+  it(`should have as title 'angular-audio-player-pavel-f'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('my-app2');
+    expect(app.title).toEqual('angular-audio-player-pavel-f');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('my-app2 app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('angular-audio-player-pavel-f app is running!');
   });
 });
