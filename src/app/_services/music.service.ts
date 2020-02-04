@@ -13,7 +13,7 @@ export class MusicService {
 
     }
     loadMusic(){
-        this.http.get<any>(`http://itunes.apple.com/search?term=incubus&enitity=album`)
+        this.http.get<any>(`https://itunes.apple.com/search?term=incubus&enitity=album`)
             .subscribe((data: any) => {
                 if(!data.results || data.results.length == 0){
                     return;
