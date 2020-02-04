@@ -1,10 +1,8 @@
 ﻿import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { BehaviorSubject, Observable } from 'rxjs';
 
 
 import { Track } from './../_models';
-import {map} from "rxjs/internal/operators/map";
 
 @Injectable({ providedIn: 'root' })
 export class MusicService {

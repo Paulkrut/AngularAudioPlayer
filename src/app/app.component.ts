@@ -1,9 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { AuthenticationService, MusicService } from './_services';
+import { AuthenticationService } from './_services';
 import { User } from './_models';
-import { Track } from './_models';
-
 
 @Component({
   selector: 'app-root',
@@ -17,7 +15,6 @@ export class AppComponent {
   constructor(
       private router: Router,
       private authenticationService: AuthenticationService,
-      private getMusicService: MusicService
   ) {
     this.authenticationService.currentUser.subscribe(x => this.currentUser = x);
   }

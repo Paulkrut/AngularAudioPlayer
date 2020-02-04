@@ -12,18 +12,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {
     MatButtonModule,
     MatToolbarModule,
-    MatBadgeModule,
-    MatSidenavModule,
-    MatGridListModule,
-    MatFormFieldModule,
     MatInputModule,
     MatSelectModule,
     MatRadioModule,
-    MatDatepickerModule,
-    MatNativeDateModule,
-    MatChipsModule,
-    MatTooltipModule,
-    MatPaginatorModule
 } from '@angular/material';
 import {MatTableModule} from "@angular/material/table";
 import {PlayerComponent} from "./player/player.component";

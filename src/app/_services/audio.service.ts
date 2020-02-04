@@ -3,7 +3,6 @@ import {Observable, BehaviorSubject, Subject} from 'rxjs';
 import {takeUntil} from 'rxjs/operators';
 import * as moment from 'moment';
 import {StreamState} from '../_interfaces/stream-state';
-import {User} from "../_models";
 import {AuthenticationService} from "./authentication.service";
 
 @Injectable({

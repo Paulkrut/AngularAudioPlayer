@@ -27,6 +27,9 @@
 
     <div class="media-footer">
       <mat-toolbar color="primary">
+        <mat-toolbar-row *ngIf="!auth.currentUserValue">
+          <p>Не авторизованному пользователю доступны только 15 секунд</p>
+        </mat-toolbar-row>
         <mat-toolbar-row>
           {{ state?.readableCurrentTime }}
           <mat-slider class="time-slider" min="0" [max]="state?.duration" step="1" [value]="state?.currentTime"
